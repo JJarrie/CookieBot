@@ -6,7 +6,7 @@ AutoPlay.version = "2.0"
 AutoPlay.gameVersion = "2.0042";
 AutoPlay.robotName="Automated ";
 AutoPlay.delay=0;
-AutoPlay.night=false;
+AutoPlay.night=true;
 
 AutoPlay.run = function () {
   if (Game.AscendTimer>0 || Game.ReincarnateTimer>0) return;
